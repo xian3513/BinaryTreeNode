@@ -23,6 +23,7 @@
     
     if(root == nil) {
         root = [[BinaryImageNode alloc]init];
+        root->imageNode = nil;
     }
     else {
         BOOL isSimilar;
