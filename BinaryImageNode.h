@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BinaryImageNode : UIImage
+@interface BinaryImageNode : NSObject {
+    @public
+    NSMutableArray *imageArray;
+    BinaryImageNode *imageNode;
+}
 
+@property (nonatomic,strong)UIImage *image;
++ (BinaryImageNode *)addTree:(BinaryImageNode *)root andValue:(UIImage *)value;
+- (void)inOrderBinaryTree:(BinaryImageNode *)p;
 @end

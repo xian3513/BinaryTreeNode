@@ -15,6 +15,7 @@
 		689D66731B14561500D6FF93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689D66721B14561500D6FF93 /* Images.xcassets */; };
 		689D66761B14561500D6FF93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689D66741B14561500D6FF93 /* LaunchScreen.xib */; };
 		689D66821B14561500D6FF93 /* BinaryImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D66811B14561500D6FF93 /* BinaryImageTests.m */; };
+		689D668D1B14563900D6FF93 /* BinaryImageNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D668C1B14563900D6FF93 /* BinaryImageNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		689D667B1B14561500D6FF93 /* BinaryImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		689D66801B14561500D6FF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689D66811B14561500D6FF93 /* BinaryImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryImageTests.m; sourceTree = "<group>"; };
+		689D668B1B14563900D6FF93 /* BinaryImageNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryImageNode.h; sourceTree = "<group>"; };
+		689D668C1B14563900D6FF93 /* BinaryImageNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryImageNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		689D66561B14561400D6FF93 = {
 			isa = PBXGroup;
 			children = (
+				689D668B1B14563900D6FF93 /* BinaryImageNode.h */,
+				689D668C1B14563900D6FF93 /* BinaryImageNode.m */,
 				689D66611B14561400D6FF93 /* BinaryImage */,
 				689D667E1B14561500D6FF93 /* BinaryImageTests */,
 				689D66601B14561400D6FF93 /* Products */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				689D66681B14561400D6FF93 /* AppDelegate.m in Sources */,
+				689D668D1B14563900D6FF93 /* BinaryImageNode.m in Sources */,
 				689D666B1B14561500D6FF93 /* BinaryImage.xcdatamodeld in Sources */,
 				689D666E1B14561500D6FF93 /* ViewController.m in Sources */,
 				689D66651B14561400D6FF93 /* main.m in Sources */,
