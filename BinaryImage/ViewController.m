@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BinaryImageNode.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    BinaryImageNode *root = nil;
+    for(UIImage *value in @[]) {
+        root = [BinaryImageNode addTree:root andValue:value];
+    }
+    //
+    [root inOrderBinaryTree:root];
 }
 
 - (void)didReceiveMemoryWarning {

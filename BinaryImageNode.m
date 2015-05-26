@@ -37,5 +37,6 @@
 
 - (void)inOrderBinaryTree:(BinaryImageNode *)p {
             //自己写方法输出你想要的东西
+    NSLog(@"自己写方法输出你想要的东西");
 }
 @end
